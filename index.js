@@ -479,6 +479,7 @@ function updateModelList() {
             'claude-2.0'
         ],
         'google': [
+			'gemini-2.0-flash-exp'
 			'gemini-3-pro-preview',
             'gemini-3-flash-preview',
 		    'gemini-2.5-flash-preview-09-2025',
@@ -4361,6 +4362,7 @@ class PresetManager {
 // 전역 인스턴스 생성
 let promptManager = null;
 let presetManager = null;
+
 
 
 
